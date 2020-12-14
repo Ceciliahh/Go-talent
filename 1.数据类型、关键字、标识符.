@@ -1,0 +1,62 @@
+Go语言
+一、数据类型
+    和java、c语言、python相似，有整型、浮点型、bool类型、字符串，特点是有复数类型a+bi
+
+定义变量的方式：
+    var name complex128 = complex(x,y)
+    变量 变量名 类型 
+或者简便方式：
+    z:=complex(x,y)
+
+复数可以用==或者！=方式比较。
+
+1.2派生类型
+
+指针类型（Pointer）
+数组类型
+结构化类型(struct)
+Channel 类型
+函数类型
+切片类型
+接口类型（interface）
+Map 类型
+
+1.3架构
+
+Uint8无符号 8 位整型 (0 到 255)
+Unit16
+Unit32
+Unit64
+int8
+int16
+int32
+int64
+
+
+2浮点型：
+
+float32
+float64
+complex64(实数虚数)
+complex128
+
+3其他：
+
+byte
+rune
+uint
+int
+uintptr(无符号整型，存放一个指针)
+
+
+
+二、关键字
+break default func interface select case defer go map struct chan else goto package switch const fallthrough if range type continue for import return var
+
+预定义标识符
+append bool byte cap close complex complex64 complex128 uint16 copy false float32 float64 imag int int8 int16 uint32 int32 int64 iota len make new nil panic uint64 print println real recover string true uint uint8 uintptr
+
+标识符的命名规则和python、java相同
+
+
+
